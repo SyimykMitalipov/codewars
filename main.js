@@ -225,7 +225,7 @@
 //     let result = ''
 //     const resOfSplit = num.toString().split('')
 //      for(let res of resOfSplit)  {
-      
+
 //       result += Math.pow(Number(res) , 2)
 //      }
 //      return Number(result)
@@ -235,9 +235,9 @@
 // const isAviableMessage = (message) => {
 //     for(num of message) {
 //         isNaN(num)
-        
+
 //    }
-    
+
 // }
 // console.log(isAviableMessage("3hey5hello2hi"))
 // const reverse = (elem) => {
@@ -328,11 +328,11 @@
 // }
 // console.log(wordReverse('syimyk'))
 
- 
+
 
 // const numReverse = (num) => {
 //   return parseInt((num < 0 ? '-' : '') + String(Math.abs(num)).split('').reverse().join(''))
-    
+
 // }
 // console.log(numReverse(245))
 
@@ -345,6 +345,75 @@
 //   return tally
 // },{})
 // console.log(count)
+
+
+
+
+// function whatCentury(year) {
+//   const resOfCentury = +String(year).slice(0, 2) + 1 
+//   const changeTyp =resOfCentury.toString()
+//   return changeTyp[changeTyp.length - 1] == 1 && changeTyp != 11 ? changeTyp + 'st' : changeTyp[changeTyp.length - 1] == 2 && changeTyp != 12 ? changeTyp + 'nd' : changeTyp[changeTyp.length - 1] == 3 && changeTyp != 13 ? changeTyp + 'rd' : changeTyp + 'th'
+
+// }
+
+
+// console.log(whatCentury(2000))
+
+
+
+// function friend(friends) {
+//   let result = []
+//   friends.forEach((fr,idx) => fr.length == 4 ? result.push(fr) : null)
+//   return result;
+// }
+
+// console.log(friend(["Ryan", "Jimmy", "123", "4", "Cool Man"]))
+
+
+
+
+// function sumTwoSmallestNumbers(numbers) {
+// const sorted = numbers.sort((a, b) => a - b)
+//   return sorted[0] + sorted[1]
+// }
+// console.log(sumTwoSmallestNumbers([5, 8, 12, 19, 22]))
+
+
+
+// function oneCharDifference(s1, s2) {
+//   // const s2Res = [...s2]
+  
+
+
+// }
+// console.log(oneCharDifference('syi','syi'))
+
+
+// function order(words) {
+//   return words.split(' ').map(item => parseInt(item.match(/\d+/))).sort((a,b) => a-b)
+// }
+// console.log(order('is2 Thi1s T4est 3a'))
+
+
+
+
+// function arrayDiff(a, b) {
+//   return a.filter(item =>  !b.includes(item))
+// }
+
+// console.log(arrayDiff([1, 2, 3], [1, 2]))
+
+
+
+
+// 
+// const arr = [1,2,3]
+
+
+
+// let str = '323423.43423423';
+
+// console.log(str.split('.')[0] + '.' + str.split('.')[1].slice(0, 2) && str.spli)
 
 
 
